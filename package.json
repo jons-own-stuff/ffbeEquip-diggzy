@@ -1,11 +1,8 @@
 {
-  "name": "ffbeequip",
+  "name": "ffbeequip-diggzy",
   "version": "1.0.0",
-  "description": "FFBE Equip",
+  "description": "copy of ffbeEquip to local machine",
   "main": "server.js",
-  "engines": {
-    "node": ">= 8"
-  },
   "scripts": {
     "test": "nyc mocha test/server --recursive",
     "test:web": "mocha-webpack --webpack-config test/webpack.config.js --require test/setup.js test/static/*.js",
@@ -17,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyrgard/ffbeEquip.git"
+    "url": "git+https://github.com/jons-own-stuff/ffbeEquip-diggzy.git"
   },
   "author": "Lyrgard",
   "license": "ISC",
